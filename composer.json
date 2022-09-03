@@ -1,0 +1,50 @@
+{
+    "name": "laravin/referral-laravel",
+    "description": "Referral system in Laravel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "referral-laravel",
+        "laravin", 
+        "Laravin referral",
+        "Laravin referral-laravel",
+        "Laravin github",
+        "referral php",
+        "referral laravel"
+    ],
+    "authors": [
+        {
+            "name": "Nguyễn Đức Vinh",
+            "email": "nguyenducvinh704@gmail.com",
+            "homepage": "https://www.facebook.com/laravin.vn/",
+            "role": "CEO Founder Dev Laravin"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.1",
+        "illuminate/support" : ">=5.4",
+        "orchestra/testbench": "^6.23|^7.6",
+        "phpunit/phpunit": "^9.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Laravin\\Referral\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravin\\Referral\\ReferralServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
