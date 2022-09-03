@@ -1,2 +1,1 @@
-# Phân quyền Gate chi tiết, cấu trúc code thuần trong laravel 
-
+# Chương trình ưu đãi khi giới thiệu người dùng mới.
